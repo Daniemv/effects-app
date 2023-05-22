@@ -1,6 +1,6 @@
 import { Usuario } from "../models/usuario.model";
 
-export interface GenericServiceResponse {
+export interface UsuariosResponse {
   page:        number;
   per_page:    number;
   total:       number;
